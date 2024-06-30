@@ -17,10 +17,11 @@ namespace Estoque
 
 		public string Nome
 		{
-			get { return _nome; }
+			get { 
+				return _nome; 
+			}
 			set {
-                if (value != null && value.Length >= 2)
-                {
+                if (value != null && value.Length >= 2){
                     _nome = value;
                 }
             }
