@@ -5,6 +5,7 @@ using Executar;
 using ExecutarEmployees;
 using Course_Udemy;
 using Estoque;
+using ExercMatrizes;
 
 namespace App
 {
@@ -12,7 +13,9 @@ namespace App
     {
         static void Main(string[] args)
         {
-            Employees.RunEmployees();
+            //Employees.RunEmployees();
+            AulaMatrizes.PositionMatriz();
+            Console.ReadLine();
         }
     }
 }
